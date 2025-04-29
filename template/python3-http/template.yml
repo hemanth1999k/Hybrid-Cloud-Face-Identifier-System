@@ -1,0 +1,20 @@
+language: python3-http
+fprocess: python index.py
+build_options:
+  - name: dev
+    packages: 
+      - automake
+      - g++
+      - subversion
+      - python3-dev
+      - git
+      - build-essential
+      - cmake
+      - ca-certificates
+      - libgl1-mesa-glx
+      - ffmpeg
+      - libc-dev
+      - linux-headers
+      - cython
+      - build-base
+      - gfortran
